@@ -61,30 +61,48 @@
     max-width: 90rem;
     padding: 1.25rem 8.75rem;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .nav-img-text {
     max-width: 12.625rem;
+    position: relative;
+    left: 3rem;
     padding: 0;
     align-items: center;
 }
+.nav-bar .nav-img-text > h3{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.875;
+}
 
+.nav-img-text > img{
+    max-width: 3.875rem;
+    max-height: 3.875rem;
+}
 .nav-links {
     max-width: 24.1875rem;
+    position: relative;
+    left: 3.875rem;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 2rem;
 }
 
 .link-items a {
     text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.875rem;
 }
 
 .button-primary {
     max-width: 12.5rem;
+    position: relative;
+    left: 7rem;
     border-radius: 0.75rem;
     border: none;
     padding: 0.625rem 3.75rem;
@@ -94,6 +112,7 @@
     font-weight: 500;
     line-height: 1.875rem;
 }
+
 
 /*hero section*/
 
@@ -105,10 +124,47 @@
     color: rgba(255, 255, 255, 1);
 }
 
+.hero-container{
+    max-width:72.5rem;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.hero-container .hero-text-container{
+    max-width: 40rem;
+    padding: 0;
+}
 
+.hero-container .hero-img-container img{
+    max-width: 29.25rem;
+}
 
+.hero-container .hero-text-container > h1{
+    margin-bottom: 1.5rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 3.75rem;
+}
 
+.hero-container .hero-text-container > p{
+    margin-bottom: 1.5REM;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: auto;
+}
+.hero-btn-1{
+    max-width: 12.5rem;
+    padding: 0.625rem 2.875rem;
+    border-radius: 0.75rem;
+    background-color:black;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.875rem;
+
+}
 /* banner section */
 
 .black-2 {
@@ -175,6 +231,8 @@
     }
      .nav-img-text img{
         max-width:2.875rem ;
+        position: relative;
+        right: 3rem;
      }
     .hampburger{
         max-width: 1.875rem;
@@ -189,6 +247,20 @@
 
 
 
+/* hero section */
+.hero-container{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.hero-text-container{
+    width: 95%;
+    word-wrap: break-word;
+}
+.hero-img-container img{
+    width: 95%;
+}
 
     .display-hide-1 {
         display: none;
